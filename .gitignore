@@ -82,8 +82,3 @@ node_modules/
 
 # DynamoDB Local files
 .dynamodb/
-
-# Replit specific
-.replit
-replit.nix
-.config/
