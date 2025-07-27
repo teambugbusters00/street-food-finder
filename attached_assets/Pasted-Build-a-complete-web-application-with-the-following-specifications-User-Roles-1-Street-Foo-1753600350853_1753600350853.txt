@@ -1,0 +1,67 @@
+Build a complete web application with the following specifications:
+
+👥 User Roles:
+1. Street Food Vendor (user who orders raw materials)
+2. Supplier (who lists raw materials and accepts orders)
+
+💻 Tech Stack:
+Use HTML, CSS, JavaScript (or React if supported), and Node.js with Express for backend (or Replit-supported backend), with working front-end and backend routing. You can use localStorage or JSON backend to simulate data storage.
+
+📋 Pages Required:
+1. Home Page
+   - Welcome message
+   - Two buttons: "Login as Vendor" and "Login as Supplier"
+
+2. Vendor Login/Register Page
+   - Simple login/register form
+   - After login, redirect to Vendor Dashboard
+
+3. Vendor Dashboard:
+   - View raw materials list (name, price, photo)
+   - Add items to cart
+   - Group ordering option (multi-select vendors option - dummy UI)
+   - Place Order button
+   - Order success page
+
+4. Supplier Login/Register Page
+   - Simple login/register form
+   - After login, redirect to Supplier Dashboard
+
+5. Supplier Dashboard:
+   - Add product (Name, Price, Upload Image, Stock)
+   - View all listed items
+   - View orders placed
+   - Mark order as fulfilled
+
+6. (Optional) Admin Panel Page:
+   - Login as Admin
+   - View vendors/suppliers
+   - Approve suppliers (dummy toggle)
+   - Monitor orders
+
+📸 Image Support:
+- Use dummy placeholder images or allow upload and preview
+- For raw materials like: onions, tomatoes, masala, oil
+
+🧠 Smart Functionality:
+- Detect user role at login (Vendor or Supplier) and route them to correct dashboard
+- Use userType flag in localStorage or sessionStorage
+- Fully clickable navigation
+- Use simple styling (Tailwind or Bootstrap for UI)
+- All features must work (add, list, order, confirm)
+
+🌐 Hosting:
+Make sure it runs perfectly in Replit preview.
+Use folders like `/vendor`, `/supplier`, and main `index.html`.
+
+✨ Bonus (Optional):
+- Responsive design for mobile
+- Hindi/English switch button
+- Add a sample product.json file if database isn’t used
+
+📦 Deliverable:
+- Fully working frontend + backend in Replit
+- All buttons functional
+- All images display
+- Neat and minimal UI
+

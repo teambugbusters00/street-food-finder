@@ -1,0 +1,37 @@
+{
+  "include": ["client/src/**/*", "shared/**/*", "server/**/*"],
+  "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
+    "noEmit": true,
+
+    // ✅ Set up for both frontend (Vite) and backend (ts-node)
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "node",
+
+    // ✅ TypeScript strictness and helpers
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+
+    // ✅ Browser + Node.js support
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "types": ["node", "vite/client"],
+
+    // ✅ JSX support for React with Vite
+    "jsx": "preserve",
+
+    // ✅ Path aliases
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./client/src/*"],
+      "@shared/*": ["./shared/*"]
+    }
+  },
+  "ts-node": {
+    "esm": true
+  }
+}

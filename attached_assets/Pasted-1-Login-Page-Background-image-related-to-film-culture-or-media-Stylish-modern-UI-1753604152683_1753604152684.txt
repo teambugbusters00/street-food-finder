@@ -1,0 +1,47 @@
+1. **Login Page**:
+   - Background image related to film, culture, or media
+   - Stylish modern UI using Google Fonts, gradients, or glassmorphism
+   - Input fields: Email and Password
+   - Login button → on success show "Welcome, User!"
+   - Fake authentication only for frontend (no backend)
+
+2. **Navigation Bar**:
+   - Home | About | Gallery | Submit | Contact Us
+   - Highlight active tab
+   - Responsive design with hamburger menu for mobile
+
+3. **Home Page**:
+   - Hero section with image and heading like “Welcome to Our Festival Platform”
+   - A CTA button: “Submit Your Film” → goes to Submit page
+
+4. **About Page**:
+   - Some dummy text about your platform
+   - 1–2 profile cards showing Team Members or Founders
+
+5. **Gallery Page**:
+   - Image gallery of 6–9 images with lightbox popup when clicked
+
+6. **Submit Page**:
+   - Form with fields: Name, Email, Film Title, Description, Poster Image (file upload), Link (YouTube/Drive)
+   - Submit button (no backend required, just alert with data summary)
+
+7. **Contact Page**:
+   - Form with Name, Email, Message
+   - Submit button (again, fake alert confirmation)
+
+8. **Styling**:
+   - Fully mobile responsive
+   - Use CSS animations (fade-in, hover effects)
+   - Clean & modern color palette
+   - Add favicon
+
+9. **JavaScript Functionality**:
+   - Page routing without reloading (basic show/hide system)
+   - Simple validation for login & forms
+   - Alert for submissions (simulate behavior)
+
+10. **Image Assets**:
+    - Use royalty-free images from Unsplash/Pexels related to cinema or events
+    - Add dummy team profile images
+
+Make sure everything is self-contained in a single HTML/CSS/JS project. No backend needed. App should run perfectly in Replit with all functionality and a beautiful UI.  make like this prompt and make sure all the funtanlity is addded or hackrthn  team  ka naam bhi add hoo front page  pr joki hai zupp up uske liye ek welcome messga e aaye we are team zupp up welocme to our solution then app ka main page aaye or animation mst vieo em 
